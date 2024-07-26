@@ -17,11 +17,13 @@ pause
 cls
 set /p item_name="Item Name : " 
 set /p item_label="Item Label : "  
-set /p item_descript="Item Beschreibung : " 
-set /p item_weight="Item Gewicht : " 
+set /p item_descript="Item Description : " 
+set /p item_weight="Item Weight : " 
+set /p item_stackable="Item stackable? : (true/false)" 
+set /p item_close="Item should close? : (true(false)" 
 
 (
-    echo ['%item_name%'] = { label = '%item_label%', description = '%item_descript%', weight = '%item_weight%', stack = 'true', close = 'false' },
+    echo ['%item_name%'] = { label = '%item_label%', description = '%item_descript%', weight = '%item_weight%', stack = '%item_stackable%', close = '%item_close%' },
 ) >> items.txt
 
 goto :saveItem
@@ -32,7 +34,7 @@ goto :Init
 
 :Init
 cls
-set /p ABC_DEF=Weiteres Item erstellen oder beenden? (1/2):
+set /p ABC_DEF=Create another Item or Exit? (1/2):
 if %ABC_DEF%==1 goto createItem
 if %ABC_DEF%==2 goto Exit
 pause
