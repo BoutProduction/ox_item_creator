@@ -1,8 +1,1 @@
-['apfel'] = { label = 'Apfel', description = '', weight = '200', stack = 'true', close = 'false' },
-['quellwasser'] = { label = 'Quellwasser', description = '', weight = '1000', stack = 'true', close = 'true' },
-['honigwabe'] = { label = 'Honigwabe', description = '', weight = '1750', stack = 'true', close = 'false' },
-['kautschuk'] = { label = 'Kautschuk', description = '', weight = '750', stack = 'true', close = 'false' },
-['milch'] = { label = 'Milch', description = '', weight = '30', stack = 'true', close = 'false' },
-['kurbis'] = { label = 'Kürbis', description = '', weight = '1500', stack = 'true', close = 'false' },
-['orange'] = { label = 'Orange', description = '', weight = '150', stack = 'true', close = 'false' },
-['rohholz'] = { label = 'Rohholz', description = '', weight = '720', stack = 'true', close = 'false' },
+
